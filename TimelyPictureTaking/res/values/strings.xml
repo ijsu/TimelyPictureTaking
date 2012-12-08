@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">TimelyPictureTaking</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_timely_picture_taking">定時拍照定位資訊回傳</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+</resources>

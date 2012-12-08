@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference
+        android:key="serverIp"
+        android:title="監控端主機位址"
+        android:dialogTitle="主機位址" />
+
+    <EditTextPreference
+        android:layout_height="wrap_content"
+        android:dialogTitle="主機埠號"
+        android:key="serverPort"
+        android:title="監控端主機埠號" />
+
+    <EditTextPreference
+        android:key="timeDelay"
+        android:title="啟動延遲秒數"
+        android:dialogTitle="延遲時間(秒)" />
+    <EditTextPreference
+        android:key="timeInterval"
+        android:title="傳送間隔秒數"
+        android:dialogTitle="間隔時間(秒)" />
+    <ListPreference
+        android:key="pictureSize"
+        android:title="傳送影像解析度"
+        android:dialogTitle="傳送影像解析度" />
+    
+
+</PreferenceScreen>
